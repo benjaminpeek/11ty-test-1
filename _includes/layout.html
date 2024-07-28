@@ -7,10 +7,9 @@
 	</head>
 	<body>
 		<header>
-			<h1>Post Title</h1>
+			<h1>{{ title | default: "My Blog" }}</h1>
 		</header>
-		<main><p>my first experience programming was the summer after my sophomore year in high school</p>
-</main>
+		<main>{{ content }}</main>
 		<footer></footer>
 	</body>
 </html>
