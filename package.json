@@ -1,16 +1,16 @@
 {
-  "name": "11ty-test-1",
-  "version": "1.0.0",
-  "description": "first 11ty project",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  }
+	"name": "11ty-test-1",
+	"version": "1.0.0",
+	"description": "first 11ty project",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "eleventy"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@11ty/eleventy": "^2.0.1"
+	}
 }
